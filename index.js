@@ -275,7 +275,7 @@ client.on('messageCreate', async (message) => {
         new TextDisplayBuilder().setContent('## **Nasıl kullanılır?**')
       )
       .addTextDisplayComponents(
-        new TextDisplayBuilder().setContent('• **▶️ Başlat** : Kanal ID, tetikleyici mesaj (büyük/küçük harf duyarlı değil) ve reply mesajlarını girerek başlatır. Her Enter satırı ayrı reply olarak gönderilir.')
+        new TextDisplayBuilder().setContent('• **Başlat** : Kanal ID, tetikleyici mesaj (büyük/küçük harf duyarlı değil) ve reply mesajlarını girerek başlatır. Her Enter satırı ayrı reply olarak gönderilir.')
       )
       .addTextDisplayComponents(
         new TextDisplayBuilder().setContent('• **Token Ekle** : Tekli token eklemenizi sağlar.')
